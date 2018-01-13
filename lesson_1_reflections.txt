@@ -1,0 +1,48 @@
+1.5 How did viewing a diffrence between two versions help me spot the bug?
+
+it narrowed down the lines of code in which the bug could be from 1000 to 20.
+This makes it a lot faster to find bugs.
+
+
+1.8 How could having easy acces to the entire history of a file
+make you a more efficient programmer in the long term?
+
+You can find bugs faster, or restore an earlier version if you implemented not needed/wanted features
+
+
+1.15 What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
++ Each version is an important step
++ You dont clutter your history with to many versions
++ It is easy to find the version you are looking for
++ You dont waste to much space on your harddrive/clound
++ Each version compiles and works
+
+Cons:
+- You always have to remember to commit
+- You might not understand when it is a good point to commit
+
+1.18 Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+Because if you a single logical block or feature for example adding a button will have changes in multiple files.
+So the version control should have a version of the button not implemented and one where it is fully implemented,
+which of course needs to save multiple files.
+Google Docs saves each file history separately because the files do not have dependancies between each other.
+
+1.22 How can you use the commands git log and git diff to view the history of files?
+
+Git log shows you a list of all the diffrent versions in the history.
+Then you can use git diff with 2 version IDs to see all the diffrences between them.
+
+
+1.26 How might using version control make you more confident to make changes that could break something?
+
+By giving an insurance that you can always revert the code to a state where it worked.
+
+
+1.31 Now that you have your workspace set up, what do you want to try using Git for?
+
+AndroidStudio and other multi-file code projects
