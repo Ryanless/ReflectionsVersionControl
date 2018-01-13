@@ -1,3 +1,16 @@
 2.5 What happens when you initialize a repository? Why do you need to do it?
 
 A .git directory gets created. It is needed because the history of commits gets saved in that directory.
+
+
+2.8 How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+It prevents wasting to much memory space by getting a copy of every file.
+Instead it just makes a copy of files that actually changed.
+Though you would get this functionality too, if you would automaticlly run git diff on all files
+and then just add the changed files to the staging area.
+The only very small gain i see from having it to do manually is,
+that you if you implemented to distinctive features and forgot to commit after the 1. one you still
+can make 2 seperate commits, 1 for each feature.
+
