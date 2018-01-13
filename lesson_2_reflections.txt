@@ -1,0 +1,3 @@
+2.5 What happens when you initialize a repository? Why do you need to do it?
+
+A .git directory gets created. It is needed because the history of commits gets saved in that directory.
