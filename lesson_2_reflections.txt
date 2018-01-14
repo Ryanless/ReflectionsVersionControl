@@ -14,3 +14,33 @@ The only very small gain i see from having it to do manually is,
 that you if you implemented to distinctive features and forgot to commit after the 1. one you still
 can make 2 seperate commits, 1 for each feature.
 
+
+2.13 How can use the staging area to make sure you have one commit per logical change?
+
+You only include files belonging to one logical change.
+
+
+2.16 What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+a. You try diffrent implementations of the same feature
+b. You try an experimental feature, you are not sure you will keep for the final version
+c. You try out diffrent layouts
+d. You refactor the code completly and make part of it into a libary
+
+
+2.21 How do the diagrams help you visualize the branch structure?
+
+It is easier to picture something that you see visualy
+
+
+2.26 What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+A commit with 2 parent commits, it has only one branch "tracker" attached to it though.
+Because it represents the internal logic that git uses to handle diffrent branches.
+
+
+2.33 What are the pros and cons of Gits automatic merging vs. always doing merges manually?
+
+You save time. It would be really annoying and tendious if you would need to manually do every merge.
